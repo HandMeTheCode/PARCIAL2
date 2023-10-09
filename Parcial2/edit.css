@@ -1,0 +1,348 @@
+@font-face {
+    font-family: JJk1;
+    src: url(/Fuentes/Philosopher-Bold.ttf);
+}
+@font-face {
+    font-family: JJK2;
+    src: url(/Fuentes/Philosopher-BoldItalic.ttf);
+}
+@font-face {
+    font-family: JJK3;
+    src: url(/Fuentes/Philosopher-Italic.ttf);
+}
+@font-face {
+    font-family: JJK4;
+    src: url(//Fuentes/Philosopher-Regular.ttf);
+}
+.titulo-poster{
+    background-color: rgb(100, 12, 12);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.678);
+}
+.cabeza{
+    display: flex;
+    justify-content:space-between;
+    height: 80%;
+    background-color: rgb(126, 76, 173);
+    place-items: center;
+    height: 700px;
+    box-shadow: 
+    0 -5px 10px rgba(173, 0, 0, 0.452)  inset,
+    0 5px 10px rgba(173, 0, 0, 0) inset;
+    font-family: JJK3;
+}
+/* * modified color added */
+* {
+    font-family: JJK3;
+    color: white;
+}
+/* h1 added */
+h1 {
+    width: inherit;
+    display: grid;
+    align-items: center;
+    background-color: #000000;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    padding: 1%;
+}
+
+/* #p1 h2 added */
+#p1 h2 {
+    width: 40%;
+    background-color: #000000;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    padding: 1%;
+}
+
+/* #p4 h2 added */
+#p4 h2 {
+    width: 102%;
+    background-color: #000000;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    padding: 1%;
+}
+
+/* p.sombra added background style added */
+p.sombra {
+    width: 96%;
+    background-color: #000000;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+
+.cabezita{
+    background-color: rgb(126, 76, 173);
+    box-shadow: 
+    0 5px 10px rgba(173, 0, 0, 0.452) inset, 
+    0 -5px 10px rgba(168, 37, 37, 0) inset;
+}
+.texto{
+    text-shadow: white;
+    text-shadow: 12px;
+}
+/* body modified grid added */
+/* grid added so that page be more responsivenese*/
+body {
+    display: grid;
+    justify-items: stretch;
+    margin: 0;
+    padding: 0;
+}
+.bordesimg{
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border: 40px ; 
+}
+.bordesimg :hover{
+    border-color: red;  
+}
+
+.menu{
+    bottom:auto;
+}
+
+
+.sec1{
+    background-color: rgb(100, 12, 12);
+    box-shadow: 
+    0 -5px 10px rgba(0, 0, 0, 0.3) inset,  
+    0 5px 10px rgba(0, 0, 0, 0.3)inset; 
+    height: 800px;
+}
+.sec2{
+    background-color: rgb(126, 76, 173) ;
+    box-shadow: 
+    0 -5px 10px rgba(173, 0, 0, 0.452)  inset,  
+    0 5px 10px rgba(173, 0, 0, 0.452) inset; 
+    height: 800px;
+}
+.cuerpo{
+    display: grid;
+}
+#p1{
+   display: grid;
+   place-items: center;
+}
+#p2{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+#p3{
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+#p4{
+    text-align: center;
+    display: grid;
+    
+    
+}
+#p5{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    place-content: center;
+}
+#p6{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    place-content: center;
+}
+#p7{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    place-content: center;
+}
+.videos{
+    display: flex;
+}
+.shibuja{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 50%;
+}
+.gojo{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 50%;
+}
+/* sinopsis modified background style added */
+.sinopsis {
+    width: 50%;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.678);
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    padding: 2%;
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#action{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 7px inset;
+    border-color: black;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+.personajes{
+    display: grid;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+#esp{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    
+}
+
+.autor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tempo{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.texto-de-imagen{
+    position: absolute;
+    top: 78%;  
+    left: 50%;  
+    transform: translate(-50%, -50%); 
+    color: #000000; 
+    font-size: 24px; 
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    padding: 10px;
+}
+.contenedor img{
+    width: 300px;
+    height: auto;
+}
+.contenedor{
+    position: relative;
+    width: 100%; 
+    max-width: 600px;
+}
+.personajes2{
+    display: flex;
+}
+.port{
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.gege{
+
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    
+}
+/* akutami modified grid added */
+.akutami {
+    display: grid;
+    width: 50%;
+    justify-items: center;
+}
+.gege-foto{
+    display: grid;
+    place-content: center;
+}
+.nombre-gege{
+    font-size: 100px;
+}
+.sobre-manga{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+/* caja modified background style added */
+.caja {
+    width: 64%;
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    color: white;
+    align-items: center;
+}
+.mappa-info{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.mappa-ir{
+    background-color: #2b2a2a;
+    color: white;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    width: 10%;
+    height: 10%;
+}
+.fondo-mappa{
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+/*footer added*/
+footer{
+    background-color: black;
+    color: white;
+}
+.p-header-logo{
+    font-size: 1.55em;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.nav-footer{
+
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+    width: 100%;
+}
+
+.nav-footer-ul{
+    display: flex;
+    margin-top: 81px;
+    margin-bottom: 0;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding: 0;
+    padding-top: 3%;
+    border-top: 0.5px solid darkviolet;
+    justify-content: space-between;
+    list-style: none;
+}
+
