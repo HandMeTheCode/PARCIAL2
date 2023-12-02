@@ -1,4 +1,4 @@
-# PARCIAL2 de DSIV
+# PARCIAL2 y PARCIAL3 de DSIV
 estudiantes: 
               Miguel Acosta 8-985-1275,
               Miguel Vallejo 8-999-2497,
